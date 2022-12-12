@@ -22,6 +22,7 @@ const Hero = () => {
       setShow(false);
     }, 4000);
   }, [random]);
+  
   const set = { 1: 0.4, 2: 0.3, 3: 0.2, 4: 0.1 };
 
   // get probabilities sum:
@@ -45,6 +46,7 @@ const Hero = () => {
     <>
       <div className="card_bg">
         <div className="container py-5">
+          <h2 className="text-center my-4">Probability Card</h2>
           <div className="row">
             {data.map((val, i) => {
               return (

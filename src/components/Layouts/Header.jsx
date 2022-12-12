@@ -6,12 +6,7 @@ const Header = () => {
        <nav className="navbar navbar-expand-lg  bg-white" style={{zIndex: '1'}} id="navbar_top">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img
-              src="assets/images/logo-polkadot.svg"
-              className="img-fluid "
-              style={{width:'50%'}}
-              alt="logo"
-            />
+            Probability Cards
           </Link>
           <button
             className="navbar-toggler"
@@ -27,18 +22,18 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto text-center mb-2  mb-lg-0">
               <li className="nav-item ">
-                <Link className="nav-link " aria-current="page" to="/technology">
-                  Technology
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/community">
-                  Community
+                <Link className="nav-link " aria-current="page" to="/">
+                  Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
                   About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/community">
+                  Community
                 </Link>
               </li>
               <li className="nav-item">
