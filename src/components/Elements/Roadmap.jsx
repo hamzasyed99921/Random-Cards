@@ -3,7 +3,7 @@ import useFetch from './data/useFetch'
 const Roadmap = () => {
     const { loading, data } = useFetch( `https://hn.algolia.com/api/v1/search?query=JavaScript`);
     // console.log(data);
-    if(loading) return <h1>Loading</h1>
+    if(loading) return <h1 className='mt-3 text-center'>Loading</h1>
   return (
     <>
 

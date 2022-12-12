@@ -3,7 +3,7 @@ import useFetch from "./data/useFetch";
 
 const Sections = () => {
   const { loading, data } = useFetch('https://jsonplaceholder.typicode.com/users');
-  if (loading) return <h1>Loading</h1>;
+  if (loading) return <h1 className='mt-3 text-center'>Loading</h1>;
   return (
     <>
       <div className="container">
